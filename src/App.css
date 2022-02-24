@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #d2d3d6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.big {
+  margin-top: 30px;
+  color: rgba(175, 47, 47, 0.342);
+  font-size: 100px;
+}
+
+.Board {
+  position: relative;
+  width: 600px !important;
+  border: 0.1px solid #a5a4a4;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+}
+
+.InputCard {
+  color: black;
+  font-size: 40px;
+  height: 70px;
+}
+
+.InputCard button {
+  font-size: 22px;
+  color: black;
+  width: 10%;
+  background-color: #fff;
+  font-size: x-large !important;
+}
+
+.rotate {
+  display: inline-block;
+  transform: rotate(90deg);
+  color: #e6e6e6;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+.lefty {
+  float: left;
+}
+
+.righty {
+  float: right;
+}
+
+.inp {
+  border: 0;
+  font-size: large !important;
+  height: 70px !important;
+}
+
+.inp:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.TaskCard {
+  background-color: #fff !important;
+  color: black;
+}
+
+.checkers {
+  color: #fff;
+  display: inline;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 2px 5px;
+  width: 500px !important;
+  margin: 15px 20px 15px 13px;
+  cursor: pointer;
+}
+
+.list {
+  border-top: 1px solid #e6e6e6;
+  z-index: 2;
+  padding: 5px;
+  background-color: #fff !important;
+  text-align: start;
+  width: 100%;
+  font: 100;
+}
+
+.list input[type="checkbox"] {
+  transform: scale(2);
+  margin: 15px 30px 15px 20px;
+}
+
+.list input[type="text"] {
+  width: 80%;
+}
+
+.cross {
+  background-color: #fff;
+  float: right;
+  font-weight: 900;
+  font-size: large;
+  padding: 10px 20px 0 0;
+  color: #cc9a9a;
+}
+
+.cross:hover {
+  color: red;
+}
+
+.cross:focus,
+.cross:active,
+.cross:enabled {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.form-group {
+  margin: 0;
+  display: inline;
+}
+
+.FooterCard {
+  border-top: 2px solid #e6e6e6 !important;
+  padding: 15px;
+  background-color: #fff;
+  color: black;
+  width: 100%;
+  text-align: center;
+  font-size: medium;
+}
+
+.FooterCard span {
+  padding: 2px;
+  align-content: center;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;
+}
+::-moz-placeholder {
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  font-style: italic;
+}
